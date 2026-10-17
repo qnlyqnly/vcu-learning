@@ -1,4 +1,9 @@
-> 草稿｜未经审核，不要公开或同步到 CSDN。
+
+> 本文为第01期原创技术文章的 GitHub 存档。
+
+**CSDN 正式发布地址：**
+https://blog.csdn.net/qian123456wang/article/details/168146222
+
 
 # 【汽车电子新手避坑】别再一条条录 DBC 了！Excel 批量生成 DBC
 
