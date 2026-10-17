@@ -101,7 +101,9 @@ python excel_to_dbc.py "标准通信矩阵模板.xlsx" "演示生成.dbc"
 4. `演示生成.dbc`：实际由示例 Excel 生成的 DBC。
 5. `README.md` 和 `test_converter.py`：使用说明与基础自测。
 
-**下载地址：**【审核并上传资源后再补真实链接，不放假链接】
+
+**配套工具下载：**
+[GitHub 原创 Excel 转 DBC 项目](../projects/01-excel-to-dbc/)
 
 
 最后说一句：刚开始接触车载通信，不一定要先写很复杂的程序。把一个重复的小流程真正跑通、知道它的适用范围和风险，本身就是很好的工程练习。
