@@ -1,0 +1,29 @@
+VERSION ""
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+
+BS_:
+
+BU_: MCU VCU
+
+BO_ 384 VCU_DemoStatus: 8 VCU
+ SG_ VehicleSpeed : 0|16@1+ (0.01,0) [0|250] "km/h" MCU
+ SG_ DriveMode : 16|8@1+ (1,0) [0|5] "" MCU
+ SG_ HVReady : 24|1@1+ (1,0) [0|1] "" MCU
+
+BO_ 2566848769 MCU_DemoFeedback: 8 MCU
+ SG_ MotorSpeed : 0|16@1- (1,0) [-30000|30000] "rpm" VCU
+ SG_ MotorTorque : 16|16@1- (0.1,0) [-300|300] "Nm" VCU
+ SG_ DCBusVoltage : 32|16@1+ (0.1,0) [0|800] "V" VCU
+ SG_ MCUState : 48|8@1+ (1,0) [0|5] "" VCU
+
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 65535;
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+
+BA_ "GenMsgCycleTime" BO_ 384 100;
+BA_ "GenMsgCycleTime" BO_ 2566848769 20;
