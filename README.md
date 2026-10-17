@@ -31,6 +31,14 @@
 - 不将本仓库视为真实控制器通信协议或可以直接投入量产的工具。
 - **新增内容公开前须经过审核。**本仓库目前公开展示，暂未添加开源许可证。代码仅供学习参考，具体使用和再分发权限以未来的许可证为准。
 
-## 文章联动
 
-配套文章草稿位于 [docs/01-csdn-draft.md](docs/01-csdn-draft.md)。它还处于审核状态，暂未对外发表。
+## CSDN 原创技术文章
+
+**第01期：Excel 批量生成 DBC**
+
+📖 [阅读 CSDN 原创文章](https://blog.csdn.net/qian123456wang/article/details/168146222)
+
+📁 [查看配套代码与 Excel 模板](projects/01-excel-to-dbc/)
+
+持续更新 CAN、VCU、Simulink 等原创学习项目。
+
