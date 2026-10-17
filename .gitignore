@@ -1,0 +1,14 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Editor / OS artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Local logs and temporary exports
+*.log
+~$*.xlsx
