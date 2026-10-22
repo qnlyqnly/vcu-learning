@@ -1,0 +1,3 @@
+case,message_id_hex,dlc,data_hex,expected_signal,expected_meaning
+A,0x321,1,00,ReadySt,未就绪
+B,0x321,1,01,ReadySt,已就绪
