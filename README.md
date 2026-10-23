@@ -8,7 +8,7 @@
 
 [CAN与DBC主题目录](projects/can-dbc/)：汇总Excel转DBC、CAN/DBC基础和通信矩阵信号边界练习。
 
-最新练习：[分清独立信号与高低字节](projects/can-dbc/signal-boundaries/)，提供矩阵反例、DBC、虚构数据、位分布图和手工核对任务，配套CSDN第03期（文章链接待补）。
+最新练习：[分清独立信号与高低字节](projects/can-dbc/signal-boundaries/)，提供矩阵反例、DBC、虚构数据、位分布图和手工核对任务，配套[CSDN第03期文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501)。
 
 ## 已准备的原创项目
 
