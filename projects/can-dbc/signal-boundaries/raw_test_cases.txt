@@ -1,0 +1,9 @@
+# Original fictional teaching data; not captured from a vehicle.
+# Message: DemoPacked; standard CAN frame; ID=0x456; DLC=3.
+# Custom text format: CAN_ID (HEX) DLC DATA (HEX)
+# For manual comparison or a custom parser; NOT an ASC replay file.
+# No claim of direct import into any CAN tool.
+
+0x456 3 03 34 12
+0x456 3 02 34 12
+0x456 3 01 01 00
