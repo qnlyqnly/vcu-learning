@@ -4,6 +4,12 @@
 
 欢迎来到 `vcu-learning`。这里用**大白话说明 + 能自己运行的例子 + 清楚的限制**，记录从通信基础走向汽车电子与整车控制的实践。
 
+## 按技术方向浏览
+
+[CAN与DBC主题目录](projects/can-dbc/)：汇总Excel转DBC、CAN/DBC基础和通信矩阵信号边界练习。
+
+最新练习：[分清独立信号与高低字节](projects/can-dbc/signal-boundaries/)，提供矩阵反例、DBC、虚构数据、位分布图和手工核对任务，配套[CSDN第03期文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501)。
+
 ## 已准备的原创项目
 
 | 主题 | 内容 | 当前验证情况 |

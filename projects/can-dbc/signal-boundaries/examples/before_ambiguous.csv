@@ -1,0 +1,3 @@
+message_id_hex,frame_type,dlc,signal_name,start_bit,length_bits,description
+0x456,standard,3,LampReq/FanReq,0,2,反例：bit0为指示灯请求且bit1为风扇请求；两个独立信号却挤在一行
+0x456,standard,3,DemoCount,8,16,一个完整数值；第1字节低字节且第2字节高字节；Intel

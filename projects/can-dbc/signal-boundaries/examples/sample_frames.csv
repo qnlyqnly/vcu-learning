@@ -1,0 +1,4 @@
+case,message_id_hex,frame_type,dlc,data_hex,expected_LampReq,expected_FanReq,expected_DemoCount
+A,0x456,standard,3,03 34 12,1,1,4660
+B,0x456,standard,3,02 34 12,0,1,4660
+C,0x456,standard,3,01 01 00,1,0,1

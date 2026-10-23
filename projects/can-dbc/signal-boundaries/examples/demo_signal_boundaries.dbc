@@ -1,0 +1,19 @@
+VERSION "fictional-teaching-1"
+
+NS_ :
+    NS_DESC_
+    CM_
+    VAL_
+
+BS_:
+
+BU_: TeachSender TeachReader
+
+BO_ 1110 DemoPacked: 3 TeachSender
+ SG_ LampReq : 0|1@1+ (1,0) [0|1] "" TeachReader
+ SG_ FanReq : 1|1@1+ (1,0) [0|1] "" TeachReader
+ SG_ DemoCount : 8|16@1+ (1,0) [0|65535] "" TeachReader
+
+CM_ "Original fictional teaching data. Not a real vehicle protocol.";
+VAL_ 1110 LampReq 0 "关闭" 1 "开启" ;
+VAL_ 1110 FanReq 0 "关闭" 1 "开启" ;
