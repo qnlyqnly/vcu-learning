@@ -1,0 +1,4 @@
+message_id_hex,frame_type,message_name,dlc,sender,receiver,signal_name,start_bit,length_bits,byte_order,is_signed,factor,offset,minimum,maximum,unit,value_description
+0x456,standard,DemoPacked,3,TeachSender,TeachReader,LampReq,0,1,Intel,0,1,0,0,1,,0=关闭;1=开启
+0x456,standard,DemoPacked,3,TeachSender,TeachReader,FanReq,1,1,Intel,0,1,0,0,1,,0=关闭;1=开启
+0x456,standard,DemoPacked,3,TeachSender,TeachReader,DemoCount,8,16,Intel,0,1,0,0,65535,,虚构计数值;低字节在第1字节
