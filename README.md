@@ -13,7 +13,7 @@
 | **01** | Excel 通信矩阵批量生成 DBC | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/168146222) | [代码与 Excel 模板](projects/01-excel-to-dbc/) | 本地 8 项测试通过；图形工具与台架待验证 |
 | **02** | CAN 报文与 DBC 有什么区别 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/167691097?spm=1001.2014.3001.5502) | [DBC 示例与手工解析](projects/02-can-dbc-basics/) | 已人工核对；软件导入与解析待验证 |
 | **03** | 通信矩阵：分清独立信号与高低字节 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501) | [信号边界与位运算练习](projects/can-dbc/signal-boundaries/) | 位运算核对 3/3；DBC 加载待验证 |
-| **04** | Simulink：一个模块 50 路 Outport，批量创建、命名和连接 | 本期正式链接待补充 | [批量建模与排错练习](projects/simulink/batch-outports/) | 已人工阅读代码；MATLAB/Simulink 实测待完成 |
+| **04** | Simulink：一个模块 50 路 Outport，批量创建、命名和连接 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/169361654?spm=1001.2014.3001.5502) | [批量建模与排错练习](projects/simulink/batch-outports/) | 已人工阅读代码；MATLAB/Simulink 实测待完成 |
 
 ## 新手推荐顺序
 
@@ -40,4 +40,5 @@
 - 不上传公司/客户协议、标定参数、内部模型、日志、截图或付费课程源码。
 - 不将本仓库视为真实控制器通信协议或可以直接投入量产的工具。
 - **新增内容公开前须经过审核。**本仓库目前公开展示，暂未添加开源许可证。代码仅供学习参考，具体使用和再分发权限以未来的许可证为准。
+
 
