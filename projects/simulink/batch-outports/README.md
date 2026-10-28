@@ -16,10 +16,7 @@
 | 怎样确认接对 | 说明检查重点 | 数量、名称、编号、内部来源、外部连线、线名检查 |
 | 学完能练什么 | 带读者入门 | 改成8路、交换映射、断线排错和验证记录 |
 
-**本期关联状态：** 已确认主题，尚未取得本期CSDN最终稿与正式URL，逐段对应关系待核对。确认后在此补充准确链接，不使用上一期文章代替本期。
-
-CSDN文末可指向：[第04期配套代码与动手练习](https://github.com/qnlyqnly/vcu-learning/tree/main/projects/simulink/batch-outports)。此链接指向main中的Simulink独立主题目录。
-
+**本期关联状态：** 已确认主题，https://blog.csdn.net/qian123456wang/article/details/169361654?spm=1001.2014.3001.5502
 ## 本项目的实操特色
 
 - **一个源模块接50个外侧输出。** 顶层只看到一个DemoSource子系统，50路Constant放在源内部，让练习自包含。
@@ -126,9 +123,3 @@ cfg.values = 101:150;
 ## 技术说明与验证边界
 
 文字、配置和教学代码围绕本期独立编写，信号为虚构的DemoSource和DemoSignal01至50，没有使用企业模型、协议或日志。
-
-函数语义可查[add_block](https://www.mathworks.com/help/simulink/slref/add_block.html)、[set_param](https://www.mathworks.com/help/simulink/slref/set_param.html)、[add_line](https://www.mathworks.com/help/simulink/slref/add_line.html)及[Outport](https://www.mathworks.com/help/simulink/slref/outport.html)官方说明；本项目的实验配置和排错任务单独设计。
-
-为衔接较早版本的学习环境，本例保留add_line。MathWorks自R2024b起建议考虑Simulink.connectBlocks；这不表示本例已经在R2022b或R2024b实测兼容。
-
-结果和待验证内容见[VALIDATION.md](VALIDATION.md)。本期已按Simulink独立主题发布，准确CSDN链接和真实运行结果在确认后补充。
