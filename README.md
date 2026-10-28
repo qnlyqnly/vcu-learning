@@ -4,28 +4,28 @@
 
 欢迎来到 `vcu-learning`。这里用**大白话说明 + 能自己运行的例子 + 清楚的限制**，记录从通信基础走向汽车电子与整车控制的实践。
 
-## 按技术方向浏览
+## 按期数浏览 · 总目录
 
-[CAN与DBC主题目录](projects/can-dbc/)：汇总Excel转DBC、CAN/DBC基础和通信矩阵信号边界练习。
+按 01 → 02 → 03 → 04 阅读。每期的文章、练习和验证状态集中列在下面。
 
-[Simulink主题目录](projects/simulink/)：独立整理批量建模、端口连接与结构检查练习。
-
-Simulink第04期：[一个模块50路Outport，批量创建、命名和连接](projects/simulink/batch-outports/)。含5路入门、50路配置与连线、8关排错练习及验证记录；MATLAB/Simulink实机验证尚未完成，CSDN本期正式链接待确认。
-
-最新练习：[分清独立信号与高低字节](projects/can-dbc/signal-boundaries/)，提供矩阵反例、DBC、虚构数据、位分布图和手工核对任务，配套[CSDN第03期文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501)。
-
-## 已准备的原创项目
-
-| 主题 | 内容 | 当前验证情况 |
-| --- | --- | --- |
-| [01 · Excel 转 DBC 入门](projects/01-excel-to-dbc/) | Excel 通信矩阵模板、Python 转换器、DBC 示例和 8 项自动化测试 | 转换脚本本地测试已通过；尚未在 CANdb++ 图形界面/真实台架验证 |
+| 期数 | 主题 | CSDN 文章 | GitHub 练习 | 验证状态 |
+| --- | --- | --- | --- | --- |
+| **01** | Excel 通信矩阵批量生成 DBC | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/168146222) | [代码与 Excel 模板](projects/01-excel-to-dbc/) | 本地 8 项测试通过；图形工具与台架待验证 |
+| **02** | CAN 报文与 DBC 有什么区别 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/167691097?spm=1001.2014.3001.5502) | [DBC 示例与手工解析](projects/02-can-dbc-basics/) | 已人工核对；软件导入与解析待验证 |
+| **03** | 通信矩阵：分清独立信号与高低字节 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501) | [信号边界与位运算练习](projects/can-dbc/signal-boundaries/) | 位运算核对 3/3；DBC 加载待验证 |
+| **04** | Simulink：一个模块 50 路 Outport，批量创建、命名和连接 | 本期正式链接待补充 | [批量建模与排错练习](projects/simulink/batch-outports/) | 已人工阅读代码；MATLAB/Simulink 实测待完成 |
 
 ## 新手推荐顺序
 
-1. 阅读 [第 01 期项目说明](projects/01-excel-to-dbc/README.md)，先学会填写 Excel 模板。
-2. 运行脚本，观察 Excel 如何生成 `BO_` 和 `SG_` 定义。
-3. 自己修改一条模拟信号，重新生成 DBC。
-4. 阅读 [常见问题](projects/01-excel-to-dbc/README.md#常见问题)，尝试找出错误的起始位和帧类型。
+1. **第01期：把表变成文件。** 学会填写通信矩阵，观察脚本如何生成 DBC。
+2. **第02期：把定义和报文对应起来。** 对照 DBC 与虚构报文，练习手工解析。
+3. **第03期：把信号边界分清楚。** 理解独立信号、跨字节数值和起始位，完成位运算核对。
+4. **第04期：动手做 Simulink 建模。** 从 5 路入门到 50 路输出，练习批量命名、端口映射、连线检查和排错。
+
+## 按技术方向浏览
+
+- [CAN 与 DBC](projects/can-dbc/)：第01—03期的通信基础与信号整理练习。
+- [Simulink](projects/simulink/)：第04期起的建模、端口连接与结构检查练习。
 
 ## 后续计划（不代表已经完成）
 
@@ -40,24 +40,4 @@ Simulink第04期：[一个模块50路Outport，批量创建、命名和连接](p
 - 不上传公司/客户协议、标定参数、内部模型、日志、截图或付费课程源码。
 - 不将本仓库视为真实控制器通信协议或可以直接投入量产的工具。
 - **新增内容公开前须经过审核。**本仓库目前公开展示，暂未添加开源许可证。代码仅供学习参考，具体使用和再分发权限以未来的许可证为准。
-
-
-
-
-## CSDN 原创技术文章
-
-**第01期：Excel 批量生成 DBC**
-
-📖 [阅读 CSDN 原创文章](https://blog.csdn.net/qian123456wang/article/details/168146222)
-
-📁 [查看配套代码与 Excel 模板](projects/01-excel-to-dbc/)
-
-持续更新 CAN、VCU、Simulink 等原创学习项目。
-
-## 第02期 · CAN报文与DBC入门
-
-[查看第02期配套项目](projects/02-can-dbc-basics/)：虚构DBC、两条报文对照数据和手工解析练习。已人工核对定义一致性，软件导入与解析尚待验证。
-
-配套文章：《VCU入门笔记②：CAN报文和DBC有什么区别？用一条简单报文讲明白》。[阅读CSDN配套文章](https://blog.csdn.net/qian123456wang/article/details/167691097?spm=1001.2014.3001.5502)。
-
 
