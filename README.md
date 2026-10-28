@@ -56,3 +56,10 @@
 
 配套文章：《VCU入门笔记②：CAN报文和DBC有什么区别？用一条简单报文讲明白》。[阅读CSDN配套文章](https://blog.csdn.net/qian123456wang/article/details/167691097?spm=1001.2014.3001.5502)。
 
+
+
+## 第04期 · Simulink 批量生成 Outport
+
+[练习脚本与检查方法](projects/04-simulink-batch-outports/)：使用 5 路虚构信号演示批量创建、命名和连接 Outport，提供生成脚本、结构检查脚本和动手练习。
+
+当前为待审核内容：已做代码静态检查，尚未在 MATLAB R2022b / R2024b 中运行验证；CSDN 第04期链接待正式发布后补充。
