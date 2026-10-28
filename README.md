@@ -8,6 +8,10 @@
 
 [CAN与DBC主题目录](projects/can-dbc/)：汇总Excel转DBC、CAN/DBC基础和通信矩阵信号边界练习。
 
+[Simulink主题目录](projects/simulink/)：独立整理批量建模、端口连接与结构检查练习。
+
+Simulink第04期：[一个模块50路Outport，批量创建、命名和连接](projects/simulink/batch-outports/)。含5路入门、50路配置与连线、8关排错练习及验证记录；MATLAB/Simulink实机验证尚未完成，CSDN本期正式链接待确认。
+
 最新练习：[分清独立信号与高低字节](projects/can-dbc/signal-boundaries/)，提供矩阵反例、DBC、虚构数据、位分布图和手工核对任务，配套[CSDN第03期文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501)。
 
 ## 已准备的原创项目
@@ -55,4 +59,5 @@
 [查看第02期配套项目](projects/02-can-dbc-basics/)：虚构DBC、两条报文对照数据和手工解析练习。已人工核对定义一致性，软件导入与解析尚待验证。
 
 配套文章：《VCU入门笔记②：CAN报文和DBC有什么区别？用一条简单报文讲明白》。[阅读CSDN配套文章](https://blog.csdn.net/qian123456wang/article/details/167691097?spm=1001.2014.3001.5502)。
+
 
