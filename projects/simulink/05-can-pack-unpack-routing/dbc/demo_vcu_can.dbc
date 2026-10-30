@@ -1,0 +1,18 @@
+VERSION "Independent teaching example 05"
+
+NS_ :
+    CM_
+    VAL_
+
+BS_:
+
+BU_: DemoSender DemoReceiver
+
+BO_ 801 DemoVehicleStatus: 8 DemoSender
+ SG_ VehicleSpeed : 0|16@1+ (0.1,0) [0|6553.5] "km/h" DemoReceiver
+ SG_ Ready : 16|1@1+ (1,0) [0|1] "" DemoReceiver
+
+CM_ BO_ 801 "Fictional standard CAN teaching frame; not a real vehicle protocol.";
+CM_ SG_ 801 VehicleSpeed "Unsigned Intel; byte 0 is low byte; physical = raw * 0.1.";
+CM_ SG_ 801 Ready "Byte 2 bit 0; this teaching flag is not a driving permission.";
+VAL_ 801 Ready 0 "NotReady" 1 "Ready";
