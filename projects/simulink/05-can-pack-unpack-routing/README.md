@@ -86,9 +86,9 @@ Case3：0xC8 + 256 × 0x01 = 200 + 256 = 456；456 × 0.1 = 45.6 km/h。CSV 是�
 
 ## 与 CSDN 的关联
 
-CSDN 第05期文章链接：**待补**。
+CSDN 第05期文章：[看懂 Simulink 中的 CAN 收发与信号连接](https://blog.csdn.net/qian123456wang/article/details/169555029)。
 
-同一期分工：文章讲四个模块的作用与读图思路；GitHub 提供可逐项核对的虚构 DBC、数据表、搭建练习和检查函数。文章发布后补真实链接。
+同一期分工：文章讲四个模块的作用与读图思路；GitHub 提供可逐项核对的虚构 DBC、数据表、搭建练习和检查函数。
 
 参考：[MathWorks CAN Pack](https://www.mathworks.com/help/vnt/ug/canpack.html)、[CAN Unpack](https://www.mathworks.com/help/vnt/ug/canunpack.html)、[Goto](https://www.mathworks.com/help/simulink/slref/goto.html)、[From](https://www.mathworks.com/help/simulink/slref/from.html)。参数名称以所用版本界面为准；R2022b、R2024b 均未在本期实测。
 
