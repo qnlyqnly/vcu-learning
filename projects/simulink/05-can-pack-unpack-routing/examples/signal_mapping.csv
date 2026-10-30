@@ -1,0 +1,7 @@
+case_id,can_id_hex,message_name,signal_name,start_bit_0,length_bits,byte_order,value_type,factor,offset,raw_value,physical_value,unit
+Case1,0x321,DemoVehicleStatus,VehicleSpeed,0,16,Intel,unsigned,0.1,0,0,0.0,km/h
+Case1,0x321,DemoVehicleStatus,Ready,16,1,Intel,unsigned,1,0,0,0,none
+Case2,0x321,DemoVehicleStatus,VehicleSpeed,0,16,Intel,unsigned,0.1,0,123,12.3,km/h
+Case2,0x321,DemoVehicleStatus,Ready,16,1,Intel,unsigned,1,0,1,1,none
+Case3,0x321,DemoVehicleStatus,VehicleSpeed,0,16,Intel,unsigned,0.1,0,456,45.6,km/h
+Case3,0x321,DemoVehicleStatus,Ready,16,1,Intel,unsigned,1,0,1,1,none

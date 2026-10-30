@@ -6,7 +6,7 @@
 
 ## 按期数浏览 · 总目录
 
-按 01 → 02 → 03 → 04 阅读。每期的文章、练习和验证状态集中列在下面。
+按 01 → 02 → 03 → 04 → 05 阅读。每期的文章、练习和验证状态集中列在下面。
 
 | 期数 | 主题 | CSDN 文章 | GitHub 练习 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | **02** | CAN 报文与 DBC 有什么区别 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/167691097?spm=1001.2014.3001.5502) | [DBC 示例与手工解析](projects/02-can-dbc-basics/) | 已人工核对；软件导入与解析待验证 |
 | **03** | 通信矩阵：分清独立信号与高低字节 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/168873109?spm=1001.2014.3001.5501) | [信号边界与位运算练习](projects/can-dbc/signal-boundaries/) | 位运算核对 3/3；DBC 加载待验证 |
 | **04** | Simulink：一个模块 50 路 Outport，批量创建、命名和连接 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/169361654?spm=1001.2014.3001.5502) | [批量建模与排错练习](projects/simulink/batch-outports/) | 已人工阅读代码；MATLAB/Simulink 实测待完成 |
+| **05** | Simulink：CAN Pack、CAN Unpack、From 和 Goto | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/169555029) | [CAN收发与信号路由练习](projects/simulink/05-can-pack-unpack-routing/) | 字节计算已核对，MATLAB与Pack/Unpack未实测 |
 
 ## 新手推荐顺序
 

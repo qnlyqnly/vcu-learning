@@ -1,0 +1,4 @@
+case_id,time_s,can_id_hex,can_id_dec,frame_format,dlc,data_hex,expected_VehicleSpeed_raw,expected_VehicleSpeed_kmh,expected_Ready
+Case1,0.000,0x321,801,standard,8,"00 00 00 00 00 00 00 00",0,0.0,0
+Case2,0.100,0x321,801,standard,8,"7B 00 01 00 00 00 00 00",123,12.3,1
+Case3,0.200,0x321,801,standard,8,"C8 01 01 00 00 00 00 00",456,45.6,1

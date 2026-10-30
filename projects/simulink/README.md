@@ -7,6 +7,7 @@
 | 主题 | 配套内容 | 验证状态 |
 | --- | --- | --- |
 | [第04期：一个模块50路Outport，批量创建、命名和连接](batch-outports/) | 5路入门、50路模拟子系统、统一配置、显式端口映射、结构检查与8关排错练习 | 已人工阅读代码与说明；MATLAB/Simulink实机验证尚未完成 |
+| [第05期：CAN Pack、CAN Unpack、From 和 Goto](05-can-pack-unpack-routing/) | 虚构DBC、三组报文、信号流向图、搭建练习与标签名称初筛 | MATLAB与CAN Pack/Unpack尚未实测；[CSDN第05期](https://blog.csdn.net/qian123456wang/article/details/169555029) |
 
 ## 怎样使用
 
