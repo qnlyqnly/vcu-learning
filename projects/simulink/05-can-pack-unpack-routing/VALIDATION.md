@@ -4,6 +4,8 @@
 
 ## 已完成的检查
 
+- 已补充作者提供的[CSDN第05期正式文章链接](https://blog.csdn.net/qian123456wang/article/details/169555029)。
+
 - 人工核对DBC：标准ID 0x321=801，长度8字节，VehicleSpeed占bit0..15，Ready占bit16，定义不重叠、不越界。
 - 手算三组原始值及物理值，并用独立Python位运算与两个CSV交叉核对：Case1=(0,0.0,0)，Case2=(123,12.3,1)，Case3=(456,45.6,1)。
 - 阅读MATLAB名称初筛函数，核对三类候选问题：From缺同名Goto、Goto缺同名From、重复Goto名称。
@@ -22,7 +24,6 @@ Python核对只涉及DBC文本约定、字节、缩放与CSV，不调用MATLAB�
 | CAN Pack/Unpack离线闭环与输出数值 | 未实测 |
 | Mermaid在GitHub页面的渲染 | 待网页检查后记录 |
 | CAN设备、CAN通道、实车及代码生成 | 未执行，不作为本期完成条件 |
-| CSDN第05期正式文章URL | 待补，不编造链接 |
 
 仓库没有预制.slx，也没有DBC自动加载脚本；练习要求由读者在独立模型中实际操作。
 
