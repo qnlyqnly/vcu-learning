@@ -1,0 +1,13 @@
+flowchart TD
+  subgraph Receive["CAN 接收与解包"]
+    RX["CAN Receive：收到报文"] --> U["CAN Unpack：按 DBC 解出信号"]
+  end
+  subgraph Routing["模型内部路由：每路信号各用一对标签"]
+    U --> G["Goto：送入标签"]
+    G -. "同名且在可见范围内" .-> F["From：取出信号"]
+    F --> A["应用层：使用车速与 Ready"]
+  end
+  subgraph Transmit["打包与 CAN 发送"]
+    A --> P["CAN Pack：按 DBC 组成报文"]
+    P --> TX["CAN Transmit：发送报文"]
+  end
