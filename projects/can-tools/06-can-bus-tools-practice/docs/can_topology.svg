@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+<title id="title">高速CAN线性总线与两端终端电阻</title>
+<desc id="desc">原创理论示意。三台虚构节点接同一对CAN_H和CAN_L，两端各跨接一个120欧姆电阻，两电阻并联理论为60欧姆。</desc>
+<rect width="1000" height="470" fill="#f4f7fb"/>
+<g font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#172b4d">
+<text x="40" y="48" font-size="27" font-weight="bold">同一对线连接多个节点，两端各一个120Ω</text>
+<text x="40" y="82" font-size="17">原创理论示意 · 典型高速 CAN · 不对应实际车型针脚</text>
+<g fill="#ffffff" stroke="#8093ad" stroke-width="2">
+<rect x="190" y="118" width="140" height="64" rx="10"/>
+<rect x="430" y="118" width="140" height="64" rx="10"/>
+<rect x="670" y="118" width="140" height="64" rx="10"/>
+</g>
+<g font-size="23" text-anchor="middle">
+<text x="260" y="157">Demo VCU</text><text x="500" y="157">Demo BMS</text><text x="740" y="157">Demo MCU</text>
+</g>
+<g fill="none" stroke-width="4">
+<path d="M110 235H890 M245 182V235 M485 182V235 M725 182V235" stroke="#0369a1"/>
+<path d="M110 310H890 M275 182V310 M515 182V310 M755 182V310" stroke="#b45309"/>
+</g>
+<g font-size="21" font-weight="bold"><text x="38" y="228" fill="#0369a1">CAN_H</text><text x="38" y="342" fill="#b45309">CAN_L</text></g>
+<g fill="#ffffff" stroke="#172b4d" stroke-width="3">
+<path d="M110 235V250 M110 294V310 M890 235V250 M890 294V310"/>
+<rect x="97" y="250" width="26" height="44"/><rect x="877" y="250" width="26" height="44"/>
+</g>
+<g font-size="19"><text x="135" y="280">120Ω</text><text x="800" y="280">120Ω</text></g>
+<text x="110" y="373" font-size="18" text-anchor="middle">物理左端</text><text x="890" y="373" font-size="18" text-anchor="middle">物理右端</text>
+<text x="500" y="371" font-size="22" text-anchor="middle" font-weight="bold">120Ω ∥ 120Ω = 60Ω（理论）</text>
+<text x="40" y="414" font-size="18">电阻跨接 H 与 L；节点支线交叉无圆点处不相连。不是每个节点都装终端。</text>
+<text x="40" y="445" font-size="17">参考地、屏蔽、供电及支线长度未展开；电阻档测量前必须断电并确认安全放电。</text>
+</g>
+<g fill="#0369a1"><circle cx="245" cy="235" r="6"/><circle cx="485" cy="235" r="6"/><circle cx="725" cy="235" r="6"/></g>
+<g fill="#b45309"><circle cx="275" cy="310" r="6"/><circle cx="515" cy="310" r="6"/><circle cx="755" cy="310" r="6"/></g>
+</svg>
