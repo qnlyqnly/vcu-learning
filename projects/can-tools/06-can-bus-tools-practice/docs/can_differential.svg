@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-labelledby="title desc">
+<title id="title">CAN_H、CAN_L与差分电压理论波形</title>
+<desc id="desc">隐性时H和L约2.5V，差分约0V；显性时H约3.5V、L约1.5V，差分约2V。各区段仅为逻辑状态示意，不是完整CAN帧或实测波形。</desc>
+<rect width="1000" height="590" fill="#f4f7fb"/>
+<g font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#172b4d">
+<text x="40" y="45" font-size="27" font-weight="bold">看两根线之间的差：Vdiff = CAN_H − CAN_L</text>
+<text x="40" y="79" font-size="17">原创理论示意 · 典型高速CAN参考电平 · 电压与时间未实测</text>
+<g fill="#e0f2fe"><rect x="360" y="112" width="240" height="368"/><rect x="780" y="112" width="140" height="368"/></g>
+<g font-size="18" text-anchor="middle">
+<text x="260" y="105">隐性 / 逻辑1</text><text x="480" y="105">显性 / 逻辑0</text><text x="690" y="105">隐性 / 逻辑1</text><text x="850" y="105">显性 / 逻辑0</text>
+</g>
+<g fill="none" stroke="#cbd5e1" stroke-width="1"><path d="M165 150H930 M165 200H930 M165 280H930 M165 330H930 M165 410H930 M165 460H930"/></g>
+<g font-size="20"><text x="35" y="168" fill="#0369a1">CAN_H</text><text x="35" y="298" fill="#b45309">CAN_L</text><text x="35" y="433" fill="#6d28d9">H − L</text></g>
+<g font-size="17"><text x="117" y="155">3.5V</text><text x="117" y="205">2.5V</text><text x="117" y="285">2.5V</text><text x="117" y="335">1.5V</text><text x="125" y="415">2V</text><text x="125" y="465">0V</text></g>
+<g fill="none" stroke-width="4">
+<path d="M170 200H360V150H600V200H780V150H920" stroke="#0369a1"/>
+<path d="M170 280H360V330H600V280H780V330H920" stroke="#b45309"/>
+<path d="M170 460H360V410H600V460H780V410H920" stroke="#6d28d9"/>
+</g>
+<path d="M170 490H940L928 483M940 490L928 497" fill="none" stroke="#172b4d" stroke-width="2"/>
+<text x="930" y="520" font-size="18" text-anchor="end">时间 →（区段宽度不代表完整报文）</text>
+<text x="40" y="550" font-size="18">图中H、L以同一参考地表示；差分曲线由同一时刻的 H−L 计算。</text>
+<text x="40" y="577" font-size="17">单探头分次观察不能代替实时差分测量；普通台式示波器地夹不能随意接 CAN_L。</text>
+</g>
+</svg>
