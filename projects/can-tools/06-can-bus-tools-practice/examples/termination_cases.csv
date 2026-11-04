@@ -1,0 +1,5 @@
+case,resistors_ohm,expected_ohm,note
+two_ends,120 120,60,ideal_two_terminations
+one_end,120,120,one_termination_missing
+three_ends,120 120 120,40,extra_120_ohm
+extra_load,120 120 1200,57.142857142857,extra_1p2k_load_not_a_repair
