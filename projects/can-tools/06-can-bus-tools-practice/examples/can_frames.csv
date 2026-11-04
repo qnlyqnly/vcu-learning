@@ -1,0 +1,8 @@
+time_ms,channel,direction,frame_type,can_id,dlc,data_hex
+0,CAN_A,Rx,STD,0x610,2,00 00
+10,CAN_A,Rx,STD,0x620,2,10 00
+20,CAN_A,Rx,STD,0x610,2,01 00
+40,CAN_A,Rx,STD,0x610,2,02 00
+50,CAN_A,Rx,STD,0x620,2,11 00
+80,CAN_A,Rx,STD,0x610,2,03 00
+90,CAN_A,Rx,STD,0x620,2,12 00
