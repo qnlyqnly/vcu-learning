@@ -16,7 +16,7 @@
 | **04** | Simulink：一个模块 50 路 Outport，批量创建、命名和连接 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/169361654?spm=1001.2014.3001.5502) | [批量建模与排错练习](projects/simulink/batch-outports/) | 已人工阅读代码；MATLAB/Simulink 实测待完成 |
 | **05** | Simulink：CAN Pack、CAN Unpack、From 和 Goto | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/169555029) | [CAN收发与信号路由练习](projects/simulink/05-can-pack-unpack-routing/) | 字节计算已核对，MATLAB与Pack/Unpack未实测 |
 | **06** | CAN 总线基础、终端电阻与示波器 / ZCANPRO / MeCa | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170033630) | [CAN 总线与工具练习](projects/can-tools/06-can-bus-tools-practice/) | 静态核对与离线示例检查；工具和硬件未实测 |
-| **07** | Vector DaVinci：SWC、Interface、Port与组件连接 | 正式发布链接待补充 | [两组件车速结构练习](projects/autosar/07-davinci-toolchain/) | 静态文件已核对；DaVinci搭建与运行待验证 |
+| **07** | Vector DaVinci：SWC、Interface、Port与组件连接 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170187339) | [两组件车速结构练习](projects/autosar/07-davinci-toolchain/) | 静态文件已核对；DaVinci搭建与运行待验证 |
 
 ## 新手推荐顺序
 
