@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+  <title id="title">CAN 通道按原始快照映射</title>
+  <desc id="desc">三行独立对应关系：原 CAN0 保持 CAN0，原 CAN1 变为 CAN2，原 CAN2 变为 CAN1。不是连续覆盖替换。</desc>
+  <rect width="760" height="330" rx="16" fill="#f4f7fb"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <text x="380" y="34" font-size="22" fill="#132943">按原始值一次计算目标通道</text>
+    <text x="155" y="65" font-size="16" fill="#44566b">修改前快照</text>
+    <text x="605" y="65" font-size="16" fill="#44566b">计算后目标</text>
+    <g fill="#ffffff" stroke="#35648e" stroke-width="2">
+      <rect x="60" y="82" width="190" height="48" rx="8"/>
+      <rect x="60" y="153" width="190" height="48" rx="8"/>
+      <rect x="60" y="224" width="190" height="48" rx="8"/>
+      <rect x="510" y="82" width="190" height="48" rx="8"/>
+      <rect x="510" y="153" width="190" height="48" rx="8"/>
+      <rect x="510" y="224" width="190" height="48" rx="8"/>
+    </g>
+    <g font-size="22" fill="#132943">
+      <text x="155" y="113">CAN0</text><text x="605" y="113">CAN0</text>
+      <text x="155" y="184">CAN1</text><text x="605" y="184">CAN2</text>
+      <text x="155" y="255">CAN2</text><text x="605" y="255">CAN1</text>
+    </g>
+    <g stroke="#35648e" stroke-width="3" fill="none">
+      <path d="M265 106 H490 m-12 -8 12 8 -12 8"/>
+      <path d="M265 177 H490 m-12 -8 12 8 -12 8"/>
+      <path d="M265 248 H490 m-12 -8 12 8 -12 8"/>
+    </g>
+    <g font-size="14" fill="#44566b">
+      <text x="380" y="96">保持</text><text x="380" y="167">原 1 → 2</text><text x="380" y="238">原 2 → 1</text>
+      <text x="380" y="308">原创逻辑示意 · 教学编号不等于实际模块参数 · 非软件截图</text>
+    </g>
+  </g>
+</svg>

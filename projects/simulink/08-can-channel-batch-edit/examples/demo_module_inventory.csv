@@ -1,0 +1,7 @@
+ModuleName,ChannelBefore,ChannelExpected
+DemoReceive_A,0,0
+DemoTransmit_A,1,2
+DemoReceive_B,2,1
+DemoTransmit_B,0,0
+DemoReceive_C,1,2
+DemoTransmit_C,2,1
