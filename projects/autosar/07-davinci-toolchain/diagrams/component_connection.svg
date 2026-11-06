@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">车速组件在Composition内的Port连接</title>
+<desc id="desc">原创结构图。DemoSpeedComposition内，SpeedSource实例引用SpeedSource_SWC类型，通过Pp_VehicleSpeed提供端口连接到SpeedMonitor实例的Rp_VehicleSpeed接收端口。两侧引用同一个If_VehicleSpeed发送接收接口，数据元素为VehicleSpeed。没有实现运行行为。</desc>
+<rect width="1200" height="560" fill="#f5f8fc"/>
+<g font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#183153">
+<text x="35" y="43" font-size="27" font-weight="bold">先约定接口，再连接两个组件实例</text>
+<text x="35" y="77" font-size="18">原创结构示意 · 不是工具截图 · 连接不代表已运行</text>
+<rect x="35" y="105" width="1130" height="278" rx="15" fill="#ffffff" stroke="#607d9e" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="58" y="140" font-size="22" font-weight="bold">Composition：DemoSpeedComposition</text>
+<rect x="75" y="166" width="390" height="178" rx="12" fill="#eaf5ff" stroke="#2778af" stroke-width="2"/>
+<rect x="735" y="166" width="390" height="178" rx="12" fill="#eaf8ef" stroke="#25845b" stroke-width="2"/>
+<g font-size="21" font-weight="bold"><text x="96" y="202">实例：SpeedSource</text><text x="756" y="202">实例：SpeedMonitor</text></g>
+<g font-size="18"><text x="96" y="234">类型：SpeedSource_SWC</text><text x="756" y="234">类型：SpeedMonitor_SWC</text></g>
+<g font-size="20"><text x="96" y="277">Pp_VehicleSpeed</text><text x="756" y="277">Rp_VehicleSpeed</text></g>
+<g font-size="18"><text x="96" y="316">P-Port：提供车速</text><text x="756" y="316">R-Port：使用车速</text></g>
+<circle cx="465" cy="271" r="11" fill="#2778af"/>
+<path d="M475 271H722L709 263M722 271L709 279" fill="none" stroke="#183153" stroke-width="3"/>
+<path d="M735 258Q712 271 735 284" fill="none" stroke="#25845b" stroke-width="4"/>
+<text x="600" y="247" font-size="18" text-anchor="middle">Assembly Connector</text>
+<text x="600" y="308" font-size="18" text-anchor="middle">Conn_VehicleSpeed</text>
+<rect x="100" y="410" width="1000" height="95" rx="12" fill="#fff5da" stroke="#bd8b21" stroke-width="2"/>
+<text x="125" y="443" font-size="21" font-weight="bold">两侧Port都引用同一个 If_VehicleSpeed</text>
+<text x="125" y="480" font-size="18">Sender-Receiver Interface · VehicleSpeed → Dt_VehicleSpeed · 车速含义：km/h</text>
+<text x="35" y="539" font-size="18">图标为简化P/R示意；没有CAN映射、Runnable、RTE生成或运行结果。</text>
+</g></svg>
