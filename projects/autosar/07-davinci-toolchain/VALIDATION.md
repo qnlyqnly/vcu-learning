@@ -6,7 +6,7 @@
 
 - 原创车速教学设计，仅覆盖SWC、ECU Composition、Interface、Port和连接。
 - 不复制老师案例，不使用公司资料、商业项目截图或付费课程原件。
-- 配套范围按本期已确认主题组织；未获得可核验的CSDN正式发布链接，README明确标为待补充。
+- 配套范围按本期已确认主题组织；已根据作者提供的正式地址补充[CSDN第07期文章](https://blog.csdn.net/qian123456wang/article/details/170187339)，并同步本期README和仓库索引。
 - 图为原创结构示意；CSV为自定义记录表，不是可导入ARXML工程。
 - 工具职责和发送接收Port概念参考README及docs中列出的Vector、AUTOSAR官方资料。
 
