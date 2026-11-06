@@ -6,7 +6,7 @@
 
 ## 按期数浏览 · 总目录
 
-按 01 → 02 → 03 → 04 → 05 → 06 → 07 阅读。每期的文章、练习和验证状态集中列在下面。
+按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 阅读。每期的文章、练习和验证状态集中列在下面。
 
 | 期数 | 主题 | CSDN 文章 | GitHub 练习 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -17,6 +17,7 @@
 | **05** | Simulink：CAN Pack、CAN Unpack、From 和 Goto | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/169555029) | [CAN收发与信号路由练习](projects/simulink/05-can-pack-unpack-routing/) | 字节计算已核对，MATLAB与Pack/Unpack未实测 |
 | **06** | CAN 总线基础、终端电阻与示波器 / ZCANPRO / MeCa | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170033630) | [CAN 总线与工具练习](projects/can-tools/06-can-bus-tools-practice/) | 静态核对与离线示例检查；工具和硬件未实测 |
 | **07** | Vector DaVinci：SWC、Interface、Port与组件连接 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170187339) | [两组件车速结构练习](projects/autosar/07-davinci-toolchain/) | 静态文件已核对；DaVinci搭建与运行待验证 |
+| **08** | Simulink：CAN 通道批量修改 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170195987) | [通道映射与修改核对练习](projects/simulink/08-can-channel-batch-edit/) | 静态核对完成；MATLAB执行与模型验证待完成 |
 
 ## 新手推荐顺序
 
@@ -27,6 +28,7 @@
 5. **第05期：看懂 CAN 收发与信号路由。** 区分 Pack、Unpack、From 和 Goto。
 6. **第06期：认识 CAN 总线与观察工具。** 先看拓扑和波形，再练习报文记录与内部变量观察。
 7. **第07期：连接两个AUTOSAR软件组件。** 对照接口、P/R端口和Composition内的组件实例。
+8. **第08期：批量修改CAN通道。** 对照手动、MATLAB和AI三种方法，先保存原值，再核对CAN1/CAN2交换。
 
 ## 按技术方向浏览
 
