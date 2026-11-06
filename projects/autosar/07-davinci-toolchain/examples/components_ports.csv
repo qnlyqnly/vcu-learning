@@ -1,0 +1,3 @@
+composition,component_prototype,swc_type,port,port_kind,interface,data_element
+DemoSpeedComposition,SpeedSource,SpeedSource_SWC,Pp_VehicleSpeed,P-Port,If_VehicleSpeed,VehicleSpeed
+DemoSpeedComposition,SpeedMonitor,SpeedMonitor_SWC,Rp_VehicleSpeed,R-Port,If_VehicleSpeed,VehicleSpeed

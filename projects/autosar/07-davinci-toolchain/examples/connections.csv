@@ -1,0 +1,2 @@
+composition,connector,connector_kind,provider_instance,provider_port,requester_instance,requester_port,interface,status
+DemoSpeedComposition,Conn_VehicleSpeed,AssemblyConnector,SpeedSource,Pp_VehicleSpeed,SpeedMonitor,Rp_VehicleSpeed,If_VehicleSpeed,planned_not_tool_validated
