@@ -8,6 +8,9 @@
 | --- | --- | --- |
 | [第04期：一个模块50路Outport，批量创建、命名和连接](batch-outports/) | 5路入门、50路模拟子系统、统一配置、显式端口映射、结构检查与8关排错练习 | 已人工阅读代码与说明；MATLAB/Simulink实机验证尚未完成 |
 | [第05期：CAN Pack、CAN Unpack、From 和 Goto](05-can-pack-unpack-routing/) | 虚构DBC、三组报文、信号流向图、搭建练习与标签名称初筛 | MATLAB与CAN Pack/Unpack尚未实测；[CSDN第05期](https://blog.csdn.net/qian123456wang/article/details/169555029) |
+| [第08期：CAN 通道批量修改](08-can-channel-batch-edit/) | 三种方法、MATLAB映射脚本、虚构模块表与参数复读清单 | 静态核对；MATLAB执行与模型验证待完成；[CSDN第08期](https://blog.csdn.net/qian123456wang/article/details/170195987) |
+
+第08期先阅读本期README，再运行独立表格映射示例；下方5路/50路步骤对应第04期。
 
 ## 怎样使用
 
@@ -19,4 +22,3 @@
 CSDN第04期对应Outport批量建模主题，文章讲操作思路，本目录提供代码和实验。[阅读CSDN第04期文章](https://blog.csdn.net/qian123456wang/article/details/169361654?spm=1001.2014.3001.5502)。信号与模型均为虚构教学设计。
 
 [返回仓库首页](../../README.md)
-
