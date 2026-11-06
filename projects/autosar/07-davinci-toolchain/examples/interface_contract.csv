@@ -1,0 +1,2 @@
+interface,interface_kind,data_element,application_data_type,unit,physical_min,physical_max,status
+If_VehicleSpeed,SenderReceiverInterface,VehicleSpeed,Dt_VehicleSpeed,km/h,0,250,original_design_not_tool_validated
