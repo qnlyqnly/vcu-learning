@@ -1,0 +1,5 @@
+Composition,Connector,ProviderComponent,ProviderPort,ReceiverComponent,ReceiverPort,Interface,DataElement
+VCU_Lab_Composition,Conn_BMS_State,BMS_ModelStub,PPort_BMS_State,VCU_PowerMgr,RPort_BMS_State,If_BMS_State,BMS_State
+VCU_Lab_Composition,Conn_BMS_Voltage,BMS_ModelStub,PPort_BMS_Voltage,VCU_PowerMgr,RPort_BMS_Voltage,If_BMS_Voltage,BMS_Voltage
+VCU_Lab_Composition,Conn_HV_Request,VCU_PowerMgr,PPort_HV_Request,HV_ModelStub,RPort_HV_Request,If_HV_Request,HV_Request
+
