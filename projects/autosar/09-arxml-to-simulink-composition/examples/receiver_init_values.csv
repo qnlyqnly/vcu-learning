@@ -1,0 +1,4 @@
+SWC,ReceiverPort,ComSpec,DataElement,ApplicationDataType,ExampleInitialValue,Description
+VCU_PowerMgr,RPort_BMS_State,NonqueuedReceiverComSpec,BMS_State,ADT_BMS_State,0,Example only when zero is a valid defined initial state
+VCU_PowerMgr,RPort_BMS_Voltage,NonqueuedReceiverComSpec,BMS_Voltage,ADT_BatteryVoltage,0,Example only when zero is a valid defined initial state
+
