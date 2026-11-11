@@ -1,0 +1,5 @@
+SWC,Runnable,AccessPointKind,Port,DataElement,Interface,ApplicationDataType,Direction,Description
+VCU_PowerMgr,VCU_PowerMgr_Main_10ms,ReadDataNonqueued,RPort_BMS_State,BMS_State,If_BMS_State,ADT_BMS_State,Input,Read battery state
+VCU_PowerMgr,VCU_PowerMgr_Main_10ms,ReadDataNonqueued,RPort_BMS_Voltage,BMS_Voltage,If_BMS_Voltage,ADT_BatteryVoltage,Input,Read battery voltage
+VCU_PowerMgr,VCU_PowerMgr_Main_10ms,WriteDataNonqueued,PPort_HV_Request,HV_Request,If_HV_Request,ADT_HV_Request,Output,Write high voltage request
+

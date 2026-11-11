@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#476B91"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="310" rx="12" fill="#F7F9FC"/>
+  <text x="40" y="42" font-size="23" font-weight="bold" fill="#18324B">AUTOSAR Architecture to Simulink</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="35" y="100" width="185" height="105" rx="10" fill="#EAF2FA" stroke="#47749A" stroke-width="2"/>
+    <text x="127" y="140" font-size="18" font-weight="bold" fill="#214C72">DaVinci</text>
+    <text x="127" y="169" font-size="14" fill="#334E68">Port / Runnable</text>
+    <text x="127" y="190" font-size="14" fill="#334E68">TypeMapping</text>
+
+    <rect x="265" y="100" width="150" height="105" rx="10" fill="#FFFFFF" stroke="#47749A" stroke-width="2"/>
+    <text x="340" y="143" font-size="19" font-weight="bold" fill="#214C72">ARXML</text>
+    <text x="340" y="174" font-size="14" fill="#334E68">Architecture data</text>
+
+    <rect x="460" y="100" width="170" height="105" rx="10" fill="#EAF2FA" stroke="#47749A" stroke-width="2"/>
+    <text x="545" y="143" font-size="19" font-weight="bold" fill="#214C72">MATLAB</text>
+    <text x="545" y="174" font-size="14" fill="#334E68">arxml.importer</text>
+
+    <rect x="675" y="100" width="170" height="105" rx="10" fill="#FFFFFF" stroke="#47749A" stroke-width="2"/>
+    <text x="760" y="143" font-size="18" font-weight="bold" fill="#214C72">Composition</text>
+    <text x="760" y="174" font-size="14" fill="#334E68">Path selection</text>
+
+    <rect x="890" y="100" width="175" height="105" rx="10" fill="#EAF2FA" stroke="#47749A" stroke-width="2"/>
+    <text x="977" y="143" font-size="18" font-weight="bold" fill="#214C72">Simulink</text>
+    <text x="977" y="174" font-size="14" fill="#334E68">Model creation</text>
+
+    <g stroke="#476B91" stroke-width="3" fill="none" marker-end="url(#arrow)">
+      <path d="M220 152 H255"/>
+      <path d="M415 152 H450"/>
+      <path d="M630 152 H665"/>
+      <path d="M845 152 H880"/>
+    </g>
+  </g>
+  <text x="40" y="258" font-size="15" fill="#607487">The generated model is an initial architecture representation, not a completed control algorithm.</text>
+</svg>
+
