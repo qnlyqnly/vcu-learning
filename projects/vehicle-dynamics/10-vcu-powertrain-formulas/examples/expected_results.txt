@@ -1,0 +1,31 @@
+# Mathematical reference results calculated independently; NOT MATLAB execution output.
+# All examples use fictional parameters in demo_parameters.m.
+
+Battery voltage: 600 V
+Battery current: 125 A
+Battery measured power: 75.000 kW
+BMS allowed discharge power: 75.000 kW
+Listed auxiliary power: 5.000 kW
+Drive DC power allowance: 70.000 kW
+Drive combined efficiency: 0.90
+Motor mechanical power allowance: 63.000 kW
+Motor speed: 3000 rpm
+Power-based motor torque ceiling (9550 approximation): 200.550 N*m
+Final positive motor torque request: 200.550 N*m
+Total gear ratio: 10
+Driveline efficiency: 0.95
+Wheel radius: 0.5 m
+Wheel torque: 1905.225 N*m
+Tractive force: 3810.450 N
+Speed: 56.548668 km/h
+Flat rolling resistance: 294.300 N
+Aerodynamic drag: 113.346 N
+Flat acceleration: 1.361122 m/s^2
+10% uphill grade resistance: 2440.329 N
+10% uphill rolling resistance: 292.839 N
+10% uphill acceleration: 0.385574 m/s^2
+BMS max charge power: 20.000 kW
+Regen efficiency: 0.90
+Allowed mechanical regen power magnitude: 22.222 kW
+Power-based regen torque magnitude: 70.741 N*m
+Final motor regen torque request (negative convention): -70.741 N*m
