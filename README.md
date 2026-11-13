@@ -6,7 +6,7 @@
 
 ## 按期数浏览 · 总目录
 
-按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 阅读。每期的文章、练习和验证状态集中列在下面。
+按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 阅读。每期的文章、练习和验证状态集中列在下面。
 
 | 期数 | 主题 | CSDN 文章 | GitHub 练习 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@
 | **07** | Vector DaVinci：SWC、Interface、Port与组件连接 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170187339) | [两组件车速结构练习](projects/autosar/07-davinci-toolchain/) | 静态文件已核对；DaVinci搭建与运行待验证 |
 | **08** | Simulink：CAN 通道批量修改 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170195987) | [通道映射与修改核对练习](projects/simulink/08-can-channel-batch-edit/) | 静态核对完成；MATLAB执行与模型验证待完成 |
 | **09** | AUTOSAR：Port初始值、AccessPoints、TypeMapping与ARXML模型生成 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170491918?spm=1001.2014.3001.5501) | [ARXML导入与Composition模型练习](projects/autosar/09-arxml-to-simulink-composition/) | 脚本代码审阅完成；MATLAB/DaVinci实测待完成 |
+| **10** | 新能源汽车VCU动力系统常用计算公式：电池功率、扭矩与整车加速度 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170698701) | [MATLAB动力系统公式练习](projects/vehicle-dynamics/10-vcu-powertrain-formulas/) | 公式数值已独立核对；MATLAB未实测，MIL/实车未验证 |
 
 
 ## 新手推荐顺序
@@ -33,6 +34,8 @@
 8. **第08期：批量修改CAN通道。** 对照手动、MATLAB和AI三种方法，先保存原值，再核对CAN1/CAN2交换。
 9. **第09期：从ARXML生成Composition模型。** 核对数据访问、初始值与类型映射，再列出Composition路径并创建初始模型。
 
+10. **第10期：从电池功率算到整车加速度。** 通过虚构数据练习BMS功率限扭、轮端驱动力、坡度和回馈换算，执行状态见验证记录。
+
 ## 按技术方向浏览
 
 - [CAN 与 DBC](projects/can-dbc/)：第01—03期的通信基础与信号整理练习。
@@ -41,6 +44,8 @@
 - [CAN 工具](projects/can-tools/)：第06期起的终端电阻、示波器、报文采集与变量观察练习。
 
 - [AUTOSAR / DaVinci](projects/autosar/)：第07期的组件连接与第09期的ARXML导入、Composition模型生成练习。
+
+- [车辆动力学 / 功率扭矩计算](projects/vehicle-dynamics/)：第10期的原创MATLAB计算、曲线与练习。
 
 ## 后续计划（不代表已经完成）
 
@@ -55,3 +60,4 @@
 - 不上传公司/客户协议、标定参数、内部模型、日志、截图或付费课程源码。
 - 不将本仓库视为真实控制器通信协议或可以直接投入量产的工具。
 - **新增内容公开前须经过审核。**本仓库目前公开展示，暂未添加开源许可证。代码仅供学习参考，具体使用和再分发权限以未来的许可证为准。
+
