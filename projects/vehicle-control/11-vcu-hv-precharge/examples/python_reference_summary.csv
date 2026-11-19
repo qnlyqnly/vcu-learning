@@ -1,0 +1,13 @@
+Scenario,FinalState,FaultCode,ReadyTimeS,FaultTimeS,Evidence
+normal,HV_READY,NONE,2.68,NaN,Python reference only
+low_voltage,FAULT,PRECHARGE_TIMEOUT,NaN,3.2,Python reference only
+neg_stuck,FAULT,NEG_CLOSE_TIMEOUT,NaN,0.4,Python reference only
+permit_removed,FAULT,ABORTED,NaN,1.0,Python reference only
+pos_stuck,FAULT,POS_CLOSE_TIMEOUT,NaN,2.9,Python reference only
+pre_stuck,FAULT,PRE_CLOSE_TIMEOUT,NaN,0.45,Python reference only
+pre_open_stuck,FAULT,PRE_OPEN_TIMEOUT,NaN,2.95,Python reference only
+neg_feedback_loss,FAULT,NEG_FEEDBACK_LOST,NaN,1.0,Python reference only
+ready_feedback_loss,FAULT,READY_FEEDBACK_LOST,2.68,4.0,Python reference only
+request_removed,FAULT,ABORTED,NaN,1.0,Python reference only
+abort_requested,FAULT,ABORTED,NaN,1.0,Python reference only
+mcu_not_ready,HV_READY,NONE,2.68,NaN,Python reference only
