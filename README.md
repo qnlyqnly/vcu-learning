@@ -6,7 +6,7 @@
 
 ## 按期数浏览 · 总目录
 
-按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 阅读。每期的文章、练习和验证状态集中列在下面。
+按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 阅读。每期的文章、练习和验证状态集中列在下面。
 
 | 期数 | 主题 | CSDN 文章 | GitHub 练习 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -20,6 +20,7 @@
 | **08** | Simulink：CAN 通道批量修改 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170195987) | [通道映射与修改核对练习](projects/simulink/08-can-channel-batch-edit/) | 静态核对完成；MATLAB执行与模型验证待完成 |
 | **09** | AUTOSAR：Port初始值、AccessPoints、TypeMapping与ARXML模型生成 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170491918?spm=1001.2014.3001.5501) | [ARXML导入与Composition模型练习](projects/autosar/09-arxml-to-simulink-composition/) | 脚本代码审阅完成；MATLAB/DaVinci实测待完成 |
 | **10** | 新能源汽车VCU动力系统常用计算公式：电池功率、扭矩与整车加速度 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170698701) | [MATLAB动力系统公式练习](projects/vehicle-dynamics/10-vcu-powertrain-formulas/) | 公式数值已独立核对；MATLAB未实测，MIL/实车未验证 |
+| **11** | VCU高压上电控制：上电请求、预充与主继电器闭合 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/171017310) | [高压预充离线仿真及故障测试](projects/vehicle-control/11-vcu-hv-precharge/) | 5个.m静态检查完成；Python独立参考14组通过；MATLAB/Simulink未实测 |
 
 
 ## 新手推荐顺序
@@ -35,6 +36,7 @@
 9. **第09期：从ARXML生成Composition模型。** 核对数据访问、初始值与类型映射，再列出Composition路径并创建初始模型。
 
 10. **第10期：从电池功率算到整车加速度。** 通过虚构数据练习BMS功率限扭、轮端驱动力、坡度和回馈换算，执行状态见验证记录。
+11. **第11期：用状态和反馈检查高压上电。** 用独立RC参数观察主负、预充、主正的命令/反馈，练习预充超时、拒动和中止；先读验证边界再运行MATLAB参考脚本。
 
 ## 按技术方向浏览
 
@@ -46,6 +48,8 @@
 - [AUTOSAR / DaVinci](projects/autosar/)：第07期的组件连接与第09期的ARXML导入、Composition模型生成练习。
 
 - [车辆动力学 / 功率扭矩计算](projects/vehicle-dynamics/)：第10期的原创MATLAB计算、曲线与练习。
+
+- [VCU控制策略](projects/vehicle-control/)：第11期的高压上电、预充状态机、反馈与故障测试练习。
 
 ## 后续计划（不代表已经完成）
 
@@ -60,4 +64,5 @@
 - 不上传公司/客户协议、标定参数、内部模型、日志、截图或付费课程源码。
 - 不将本仓库视为真实控制器通信协议或可以直接投入量产的工具。
 - **新增内容公开前须经过审核。**本仓库目前公开展示，暂未添加开源许可证。代码仅供学习参考，具体使用和再分发权限以未来的许可证为准。
+
 
