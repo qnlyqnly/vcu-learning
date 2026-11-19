@@ -1,0 +1,36 @@
+# Independent mathematical/timeline references, NOT MATLAB execution logs.
+# All values are original teaching assumptions in demo_parameters.m.
+# The capacitor C=0.008 F is new to this GitHub exercise, not a vehicle value.
+
+Ubatt = 600 V
+R = 100 ohm
+C = 0.008 F
+dt = 0.01 s
+tau = R*C = 0.8 s
+Nominal initial precharge current = Ubatt/R = 6 A
+Completion ratio = 0.95
+Completion voltage = 570 V
+Theoretical time from physical PRE closure = -R*C*ln(0.05)
+Theoretical time = 2.396585818843 s < 3.0 s timeout
+Sampled charging duration to first threshold = 2.40 s
+
+Normal timeline (seconds since simulation start):
+0.10 VcuHvReq ON; CLOSE_NEG; MainNegCmd ON
+0.15 MainNegFb ON; PRECHARGE; PrechargeCmd ON
+0.20 PrechargeFb ON; effective RC charging starts; Ipre = 6 A
+2.60 Ubus = 570.127758979 V; ratio = 0.950212931632; MainPosCmd ON
+2.65 MainPosFb ON; PrechargeCmd OFF; ideal main path clamps Ubus to 600 V
+2.68 PrechargeFb OFF; HV_READY; HvReady = 1
+
+Required fault-reference cases:
+low_voltage    -> PRECHARGE_TIMEOUT at 3.20 s; no MainPosCmd; no HvReady
+neg_stuck      -> NEG_CLOSE_TIMEOUT at 0.40 s; no PrechargeCmd; no HvReady
+permit_removed -> ABORTED at 1.00 s; no MainPosCmd; no HvReady
+pos_stuck      -> POS_CLOSE_TIMEOUT at 2.90 s; no MainPosFb; no HvReady
+
+Additional reference cases and actual Python check output:
+See python_reference_summary.csv and python_reference_check.txt.
+Those files validate an independent Python analytic/timeline reference.
+They do not demonstrate MATLAB, Simulink, Stateflow, MIL or hardware execution.
+
+Run tests/run_tests.m in real MATLAB before recording the MATLAB tests as passed.
