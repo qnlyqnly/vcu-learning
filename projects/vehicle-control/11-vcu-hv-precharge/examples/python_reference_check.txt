@@ -1,0 +1,17 @@
+Python analytic/timeline reference checks. NOT MATLAB execution.
+PASS RC reference: I0=6 A; tau=0.8 s; t95=2.396585818843 s
+PASS normal: HV_READY; NONE; ready=2.68; fault=NaN
+PASS low_voltage: FAULT; PRECHARGE_TIMEOUT; ready=NaN; fault=3.2
+PASS neg_stuck: FAULT; NEG_CLOSE_TIMEOUT; ready=NaN; fault=0.4
+PASS permit_removed: FAULT; ABORTED; ready=NaN; fault=1.0
+PASS pos_stuck: FAULT; POS_CLOSE_TIMEOUT; ready=NaN; fault=2.9
+PASS pre_stuck: FAULT; PRE_CLOSE_TIMEOUT; ready=NaN; fault=0.45
+PASS pre_open_stuck: FAULT; PRE_OPEN_TIMEOUT; ready=NaN; fault=2.95
+PASS neg_feedback_loss: FAULT; NEG_FEEDBACK_LOST; ready=NaN; fault=1.0
+PASS ready_feedback_loss: FAULT; READY_FEEDBACK_LOST; ready=2.68; fault=4.0
+PASS request_removed: FAULT; ABORTED; ready=NaN; fault=1.0
+PASS abort_requested: FAULT; ABORTED; ready=NaN; fault=1.0
+PASS mcu_not_ready: HV_READY; NONE; ready=2.68; fault=NaN
+PASS exact POS-feedback deadline reference
+14 reference groups passed (12 scenarios + RC + deadline).
+The .m files, MATLAB assertions and Simulink/Stateflow were NOT executed.
