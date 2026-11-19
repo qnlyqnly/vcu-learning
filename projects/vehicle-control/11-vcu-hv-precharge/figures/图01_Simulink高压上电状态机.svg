@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="720pt" viewBox="0 0 1152 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1152 720 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #f0f0f0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 1152 0 
+L 1152 25.92 
+L 0 25.92 
+z
+" clip-path="url(#pe405333e08)" style="fill: #dce8f2; stroke: #dce8f2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 0 25.92 
+L 1152 25.92 
+L 1152 54 
+L 0 54 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fafafa; stroke: #fafafa; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 0 54 
+L 1152 54 
+L 1152 97.92 
+L 0 97.92 
+z
+" clip-path="url(#pe405333e08)" style="fill: #e5e5e5; stroke: #e5e5e5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 0 694.8 
+L 1152 694.8 
+L 1152 720 
+L 0 720 
+z
+" clip-path="url(#pe405333e08)" style="fill: #e0e0e0; stroke: #e0e0e0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 0 99.36 
+L 167.04 99.36 
+L 167.04 693.36 
+L 0 693.36 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fafafa; stroke: #bbbbbb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 8.64 129.6 
+L 158.4 129.6 
+L 158.4 149.04 
+L 8.64 149.04 
+z
+" clip-path="url(#pe405333e08)" style="fill: #ffffff; stroke: #bbbbbb; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 176.4 111.6 
+L 975.6 111.6 
+L 975.6 615.6 
+L 176.4 615.6 
+z
+" clip-path="url(#pe405333e08)" style="fill: #ffffff; stroke: #acb2b8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 986.4 111.6 
+L 1141.2 111.6 
+L 1141.2 615.6 
+L 986.4 615.6 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfbfb; stroke: #acb2b8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 218.88 183.6 
+L 393.12 183.6 
+Q 399.6 183.6 399.6 190.08 
+L 399.6 277.92 
+Q 399.6 284.4 393.12 284.4 
+L 218.88 284.4 
+Q 212.4 284.4 212.4 277.92 
+L 212.4 190.08 
+Q 212.4 183.6 218.88 183.6 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfcfe; stroke: #426985; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 485.28 183.6 
+L 659.52 183.6 
+Q 666 183.6 666 190.08 
+L 666 277.92 
+Q 666 284.4 659.52 284.4 
+L 485.28 284.4 
+Q 478.8 284.4 478.8 277.92 
+L 478.8 190.08 
+Q 478.8 183.6 485.28 183.6 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfcfe; stroke: #426985; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 751.68 183.6 
+L 925.92 183.6 
+Q 932.4 183.6 932.4 190.08 
+L 932.4 277.92 
+Q 932.4 284.4 925.92 284.4 
+L 751.68 284.4 
+Q 745.2 284.4 745.2 277.92 
+L 745.2 190.08 
+Q 745.2 183.6 751.68 183.6 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfcfe; stroke: #426985; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 751.68 392.4 
+L 925.92 392.4 
+Q 932.4 392.4 932.4 398.88 
+L 932.4 486.72 
+Q 932.4 493.2 925.92 493.2 
+L 751.68 493.2 
+Q 745.2 493.2 745.2 486.72 
+L 745.2 398.88 
+Q 745.2 392.4 751.68 392.4 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfcfe; stroke: #426985; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 485.28 392.4 
+L 659.52 392.4 
+Q 666 392.4 666 398.88 
+L 666 486.72 
+Q 666 493.2 659.52 493.2 
+L 485.28 493.2 
+Q 478.8 493.2 478.8 486.72 
+L 478.8 398.88 
+Q 478.8 392.4 485.28 392.4 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfcfe; stroke: #426985; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 218.88 392.4 
+L 393.12 392.4 
+Q 399.6 392.4 399.6 398.88 
+L 399.6 486.72 
+Q 399.6 493.2 393.12 493.2 
+L 218.88 493.2 
+Q 212.4 493.2 212.4 486.72 
+L 212.4 398.88 
+Q 212.4 392.4 218.88 392.4 
+z
+" clip-path="url(#pe405333e08)" style="fill: #fbfcfe; stroke: #426985; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 401.596436 234 
+Q 439.19689 234 475.120293 234 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 469.120293 231 
+L 475.120293 234 
+L 469.120293 237 
+z
+" clip-path="url(#pe405333e08)" style="fill: #264c68; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 667.996436 234 
+Q 705.59689 234 741.520293 234 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 735.520293 231 
+L 741.520293 234 
+L 735.520293 237 
+z
+" clip-path="url(#pe405333e08)" style="fill: #264c68; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 838.8 286.40061 
+Q 838.8 338.399121 838.8 388.72058 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 841.8 382.72058 
+L 838.8 388.72058 
+L 835.8 382.72058 
+z
+" clip-path="url(#pe405333e08)" style="fill: #264c68; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 743.203564 442.8 
+Q 705.60311 442.8 669.679707 442.8 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 675.679707 445.8 
+L 669.679707 442.8 
+L 675.679707 439.8 
+z
+" clip-path="url(#pe405333e08)" style="fill: #264c68; stroke: #264c68; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 306 336.800391 
+Q 306 363.6008 306 388.724159 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #b34a3a; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 309 382.724159 
+L 306 388.724159 
+L 303 382.724159 
+z
+" clip-path="url(#pe405333e08)" style="fill: #b34a3a; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #b34a3a; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 176.4 625.68 
+L 1141.2 625.68 
+L 1141.2 682.56 
+L 176.4 682.56 
+z
+" clip-path="url(#pe405333e08)" style="fill: #ffffff; stroke: #bcbcbc; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 212.4 210.96 
+L 399.6 210.96 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #aab8c4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 478.8 210.96 
+L 666 210.96 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #aab8c4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 745.2 210.96 
+L 932.4 210.96 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #aab8c4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 745.2 419.76 
+L 932.4 419.76 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #aab8c4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 478.8 419.76 
+L 666 419.76 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #aab8c4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 212.4 419.76 
+L 399.6 419.76 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke: #aab8c4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 838.8 285.84 
+L 838.8 334.8 
+L 306 334.8 
+" clip-path="url(#pe405333e08)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #b34a3a; stroke-width: 1.5"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #233344" x="11.52" y="17.28" transform="rotate(-0 11.52 17.28)">hv_precharge_teaching  —  Simulink / Stateflow style teaching view</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="1062" y="17.28" transform="rotate(-0 1062 17.28)">_       □       ×</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #303030" x="15.84" y="43.92" transform="rotate(-0 15.84 43.92)">File     Simulation     Debug     Modeling     Format     Apps</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="15.84" y="74.16" transform="rotate(-0 15.84 74.16)">↶   ↷     |     +     −     |     Fit to View     |     Signal Names: All</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #9a381c" x="15.84" y="90" transform="rotate(-0 15.84 90)">EDUCATIONAL UI MOCKUP  •  R2022b-style layout  •  NOT a MATLAB / Simulink run screenshot</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="11.52" y="711.36" transform="rotate(-0 11.52 711.36)">Teaching design only  |  Fixed-step reference: 0.01 s  |  No .slx generated or executed</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="10.08" y="118.8" transform="rotate(-0 10.08 118.8)">Library Browser</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #777777" x="15.84" y="143.28" transform="rotate(-0 15.84 143.28)">Search libraries</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="171.36" transform="rotate(-0 10.8 171.36)">▾  Simulink</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="190.08" transform="rotate(-0 10.8 190.08)">    ▸  Sources</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="208.8" transform="rotate(-0 10.8 208.8)">    ▸  Sinks</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="227.52" transform="rotate(-0 10.8 227.52)">    ▸  Signal Routing</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="246.24" transform="rotate(-0 10.8 246.24)">    ▸  Discrete</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="264.96" transform="rotate(-0 10.8 264.96)">▾  Stateflow</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="283.68" transform="rotate(-0 10.8 283.68)">      Chart</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="302.4" transform="rotate(-0 10.8 302.4)">      State</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="321.12" transform="rotate(-0 10.8 321.12)">      Transition</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="358.56" transform="rotate(-0 10.8 358.56)">Model workspace</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="377.28" transform="rotate(-0 10.8 377.28)">  Ubatt = 600 V</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="396" transform="rotate(-0 10.8 396)">  R = 100 ohm</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="414.72" transform="rotate(-0 10.8 414.72)">  C = 0.008 F</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="433.44" transform="rotate(-0 10.8 433.44)">  completeRatio = 0.95</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="10.8" y="452.16" transform="rotate(-0 10.8 452.16)">  timeout = 3.0 s</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1263a0" x="188.64" y="131.76" transform="rotate(-0 188.64 131.76)">BMS / HV manager: six-state contactor controller</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="997.2" y="133.2" transform="rotate(-0 997.2 133.2)">Symbols / Interface</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1263a0" x="997.2" y="157.68" transform="rotate(-0 997.2 157.68)">Inputs</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="177.84" transform="rotate(-0 997.2 177.84)">VcuHvReq</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="198" transform="rotate(-0 997.2 198)">HvPermit</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="218.16" transform="rotate(-0 997.2 218.16)">AbortReq</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="238.32" transform="rotate(-0 997.2 238.32)">MainNegFb</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="258.48" transform="rotate(-0 997.2 258.48)">PrechargeFb</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="278.64" transform="rotate(-0 997.2 278.64)">MainPosFb</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="298.8" transform="rotate(-0 997.2 298.8)">UbusV / UbattV</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1263a0" x="997.2" y="339.12" transform="rotate(-0 997.2 339.12)">Outputs</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="359.28" transform="rotate(-0 997.2 359.28)">MainNegCmd</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="379.44" transform="rotate(-0 997.2 379.44)">PrechargeCmd</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="399.6" transform="rotate(-0 997.2 399.6)">MainPosCmd</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="419.76" transform="rotate(-0 997.2 419.76)">HvReady</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1263a0" x="997.2" y="460.08" transform="rotate(-0 997.2 460.08)">MCU signals</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="480.24" transform="rotate(-0 997.2 480.24)">McuHvOk</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="500.4" transform="rotate(-0 997.2 500.4)">McuDriveReady</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #333333" x="997.2" y="520.56" transform="rotate(-0 997.2 520.56)">DriveReady</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="221.04" y="202.32" transform="rotate(-0 221.04 202.32)">OFF</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(221.04 234.451562)">All commands = 0</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(221.04 248.77375)">Wait for request</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(221.04 263.11625)">and HV permission</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="487.44" y="202.32" transform="rotate(-0 487.44 202.32)">CLOSE_NEG</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(487.44 234.398437)">MainNegCmd = 1</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(487.44 248.789375)">Wait for MainNegFb</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(487.44 263.180312)">Timeout: 0.30 s</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="753.84" y="202.32" transform="rotate(-0 753.84 202.32)">PRECHARGE</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(753.84 234.398437)">PrechargeCmd = 1</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(753.84 248.789375)">Confirm PrechargeFb</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(753.84 263.180312)">Then RC charge &lt;= 3 s</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="753.84" y="411.12" transform="rotate(-0 753.84 411.12)">CLOSE_POS</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(753.84 443.251562)">MainPosCmd = 1</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(753.84 457.57375)">Keep PRE until PosFb</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(753.84 471.895937)">Then confirm PRE open</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="487.44" y="411.12" transform="rotate(-0 487.44 411.12)">HV_READY</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(487.44 443.198437)">NegFb &amp;&amp; PosFb</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(487.44 457.589375)">&amp;&amp; !PrechargeFb</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(487.44 471.980312)">Continue monitoring</text>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="221.04" y="411.12" transform="rotate(-0 221.04 411.12)">FAULT</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(221.04 443.251562)">All commands = 0</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(221.04 457.57375)">Fault latched</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'" transform="translate(221.04 471.895937)">No automatic retry</text>
+   </g>
+   <g id="text_55">
+    <g id="patch_22">
+     <path d="M 404.303203 226.655156 
+L 474.096797 226.655156 
+L 474.096797 213.984844 
+L 404.303203 213.984844 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #264c68" x="439.2" y="222.803437" transform="rotate(-0 439.2 222.803437)">Req &amp;&amp; Permit</text>
+   </g>
+   <g id="text_56">
+    <g id="patch_23">
+     <path d="M 678.440391 226.655156 
+L 732.759609 226.655156 
+L 732.759609 213.984844 
+L 678.440391 213.984844 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #264c68" x="705.6" y="222.803437" transform="rotate(-0 705.6 222.803437)">MainNegFb</text>
+   </g>
+   <g id="text_57">
+    <g id="patch_24">
+     <path d="M 801.973828 348.334172 
+L 875.626172 348.334172 
+L 875.626172 325.585828 
+L 801.973828 325.585828 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #264c68" transform="translate(810.722109 334.404422)">PrechargeFb</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #264c68" transform="translate(803.953828 344.482453)">Ubus &gt;= 570 V</text>
+   </g>
+   <g id="text_58">
+    <g id="patch_25">
+     <path d="M 680.769844 440.494172 
+L 730.430156 440.494172 
+L 730.430156 417.745828 
+L 680.769844 417.745828 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #264c68" transform="translate(692.507109 426.564422)">PosFb</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #264c68" transform="translate(682.749844 436.642453)">&amp;&amp; !PreFb</text>
+   </g>
+   <g id="text_59">
+    <g id="patch_26">
+     <path d="M 427.196094 332.679687 
+L 674.403906 332.679687 
+L 674.403906 317.001562 
+L 427.196094 317.001562 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #a03e30" x="550.8" y="327.6" transform="rotate(-0 550.8 327.6)">Any active state: abort / timeout / feedback loss</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="195.84" y="521.28" transform="rotate(-0 195.84 521.28)">Three-contactor topology: Kneg in return path; Kpos || (Kpre + R) in positive path.</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="195.84" y="540.72" transform="rotate(-0 195.84 540.72)">Command → delayed contactor model → feedback     |     Feedback is never wired directly from command.</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1263a0" x="195.84" y="565.92" transform="rotate(-0 195.84 565.92)">HvReady = actual HV path ready     |     DriveReady additionally requires MCU HV + drive readiness.</text>
+   </g>
+   <g id="text_63">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="187.92" y="642.96" transform="rotate(-0 187.92 642.96)">Code reference  /  simulate_precharge.m</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="187.92" y="662.4" transform="rotate(-0 187.92 662.4)">case 3    cmd = [true, ~posConfirmed, true];    % PRE opens only after POS feedback confirmation</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe405333e08">
+   <rect x="0" y="0" width="1152" height="720"/>
+  </clipPath>
+ </defs>
+</svg>
