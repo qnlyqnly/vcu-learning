@@ -1,0 +1,19 @@
+Independent Python reference check (standard library only)
+This script computes the specification independently; it does not execute MATLAB.
+
+Debounce sample time: 0.001 s
+Required stable samples: 10
+Accepted ON edge: 0.169 s
+Accepted OFF edge: 0.469 s
+Debounce output transitions: 2 (PASS)
+Transient ON/OFF bounce ignored: PASS
+
+Filter sample time: 0.001 s
+Time constant: 0.025 s
+Coefficient a=exp(-Ts/tau): 0.960789439
+Raw residual standard deviation after 0.25 s: 0.210011
+Filtered residual standard deviation after 0.25 s: 0.039926
+Residual ratio: 0.1901 (<0.65 PASS)
+
+Result: Python reference checks passed.
+MATLAB execution and Simulink/Stateflow model execution remain unverified.

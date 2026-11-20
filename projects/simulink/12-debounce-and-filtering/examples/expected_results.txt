@@ -1,0 +1,25 @@
+Issue 12 - expected reference behaviour
+
+DEBOUNCE (sample-count implementation)
+Sample time: 0.001 s
+Bounce interval: 0.010 s
+Required stable duration: 0.010 s
+Required consecutive samples: 10
+Intended ON: 0.150 s
+Stable ON begins after bounce: 0.160 s
+Expected accepted ON edge: 0.169 s
+Intended OFF: 0.450 s
+Stable OFF begins after bounce: 0.460 s
+Expected accepted OFF edge: 0.469 s
+Expected output transitions: exactly 2
+
+LOW-PASS (first-order IIR teaching implementation)
+Sample time: 0.001 s
+Time constant: 0.025 s
+Coefficient a = exp(-Ts/tau) = exp(-0.04) = 0.960789439
+The filtered residual standard deviation should be lower than the raw residual
+standard deviation after the initial 0.25 s settling interval.
+
+These are design expectations. MATLAB run_tests.m has not been executed in
+this preparation environment. The Python reference checker is separate and
+does not validate the MATLAB implementation.
