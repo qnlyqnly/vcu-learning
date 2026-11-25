@@ -1,0 +1,12 @@
+ECU,SignalName,DataType,Direction,Unit,Description
+ABS,ABS_WheelSpd_FL,single,Input,km/h,左前轮轮速教学信号
+ABS,ABS_WheelSpd_FR,single,Input,km/h,右前轮轮速教学信号
+ABS,ABS_BrkSts,boolean,Input,,制动状态教学信号
+BMS,BMS_BattVolt,uint16,Input,V,电池电压教学信号
+BMS,BMS_BattCurr,int16,Input,A,电池电流教学信号
+MCU,MCU_MotorSpd,int16,Input,r/min,电机转速教学信号
+MCU,MCU_ActTq,int16,Input,Nm,实际扭矩教学信号
+BCM,BCM_DoorSts,uint8,Input,,车门状态教学信号
+DCDC,DCDC_Sts,uint8,Input,,DCDC状态教学信号
+OBC,OBC_ChargeSts,uint8,Input,,OBC充电状态教学信号
+TBOX,TBOX_OnlineSts,boolean,Input,,TBOX在线状态教学信号
