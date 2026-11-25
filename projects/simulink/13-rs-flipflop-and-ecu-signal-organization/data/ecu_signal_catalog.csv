@@ -1,0 +1,12 @@
+ECU,SignalName,DataType,Direction,Unit,Description
+ABS,ABS_WheelSpeed_FL,single,RxToVCU,km/h,Front left wheel speed teaching signal
+ABS,ABS_WheelSpeed_FR,single,RxToVCU,km/h,Front right wheel speed teaching signal
+ABS,ABS_BrakeStatus,boolean,RxToVCU,boolean,Brake status teaching signal
+BMS,BMS_PackVoltage,single,RxToVCU,V,Battery pack voltage teaching signal
+BMS,BMS_SOC,uint8,RxToVCU,%,Battery state of charge teaching signal
+MCU,MCU_MotorSpeed,int16,RxToVCU,rpm,Motor speed teaching signal
+MCU,MCU_ActualTorque,single,RxToVCU,Nm,Actual motor torque teaching signal
+BCM,BCM_IgnitionStatus,boolean,RxToVCU,boolean,Ignition status teaching signal
+DCDC,DCDC_OutputVoltage,single,RxToVCU,V,DC-DC output voltage teaching signal
+OBC,OBC_ChargeStatus,uint8,RxToVCU,code,On-board charger state teaching code
+TBOX,TBOX_WakeStatus,boolean,RxToVCU,boolean,Telematics wake status teaching signal
