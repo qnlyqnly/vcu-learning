@@ -6,7 +6,7 @@
 
 ## 按期数浏览 · 总目录
 
-按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 阅读。每期的文章、练习和验证状态集中列在下面。
+按 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 → 13 阅读。每期的文章、练习和验证状态集中列在下面。
 
 | 期数 | 主题 | CSDN 文章 | GitHub 练习 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -22,6 +22,7 @@
 | **10** | 新能源汽车VCU动力系统常用计算公式：电池功率、扭矩与整车加速度 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/170698701) | [MATLAB动力系统公式练习](projects/vehicle-dynamics/10-vcu-powertrain-formulas/) | 公式数值已独立核对；MATLAB未实测，MIL/实车未验证 |
 | **11** | VCU高压上电控制：上电请求、预充与主继电器闭合 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/171017310) | [高压预充离线仿真及故障测试](projects/vehicle-control/11-vcu-hv-precharge/) | 5个.m静态检查完成；Python独立参考14组通过；MATLAB/Simulink未实测 |
 | **12** | 汽车电子：Simulink 消抖与滤波对比实战 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/171094467?spm=1001.2014.3001.5501) | [MATLAB实验、测试与配图](projects/simulink/12-debounce-and-filtering/) | Python参考检查通过；MATLAB/Simulink/Stateflow待实测 |
+| **13** | Simulink：RS触发器与多 ECU 信号整理 | [阅读文章](https://blog.csdn.net/qian123456wang/article/details/171372527) | [RS状态逻辑、数据类型与ECU分组练习](projects/simulink/13-rs-flipflop-and-ecu-signal-organization/) | Python参考检查通过；MATLAB/Simulink待实测 |
 
 
 ## 新手推荐顺序
@@ -39,11 +40,12 @@
 10. **第10期：从电池功率算到整车加速度。** 通过虚构数据练习BMS功率限扭、轮端驱动力、坡度和回馈换算，执行状态见验证记录。
 11. **第11期：用状态和反馈检查高压上电。** 用独立RC参数观察主负、预充、主正的命令/反馈，练习预充超时、拒动和中止；先读验证边界再运行MATLAB参考脚本。
 12. **第12期：分清消抖与滤波。** 用开关触点抖动和连续数值噪声两个独立实验，比较状态确认与低通滤波；Python参考检查已执行，MATLAB/Simulink仍待实测。
+13. **第13期：理解状态保持与模型结构整理。** 通过 RS 置位/保持/复位参考逻辑、数据类型转换和虚构 ECU 信号清单，练习信号分组与子系统组织；Python参考检查已通过，MATLAB/Simulink待实测。
 
 ## 按技术方向浏览
 
 - [CAN 与 DBC](projects/can-dbc/)：第01—03期的通信基础与信号整理练习。
-- [Simulink](projects/simulink/)：第04期起的建模、端口连接与结构检查练习，以及第12期消抖与滤波对比练习。
+- [Simulink](projects/simulink/)：第04期起的建模、端口连接与结构检查练习，以及第12期消抖与滤波、第13期RS触发器与多ECU信号整理练习。
 
 - [CAN 工具](projects/can-tools/)：第06期起的终端电阻、示波器、报文采集与变量观察练习。
 
