@@ -9,13 +9,14 @@
 | [第04期：一个模块50路Outport，批量创建、命名和连接](batch-outports/) | 5路入门、50路模拟子系统、统一配置、显式端口映射、结构检查与8关排错练习 | 已人工阅读代码与说明；MATLAB/Simulink实机验证尚未完成 |
 | [第05期：CAN Pack、CAN Unpack、From 和 Goto](05-can-pack-unpack-routing/) | 虚构DBC、三组报文、信号流向图、搭建练习与标签名称初筛 | MATLAB与CAN Pack/Unpack尚未实测；[CSDN第05期](https://blog.csdn.net/qian123456wang/article/details/169555029) |
 | [第08期：CAN 通道批量修改](08-can-channel-batch-edit/) | 三种方法、MATLAB映射脚本、虚构模块表与参数复读清单 | 静态核对；MATLAB执行与模型验证待完成；[CSDN第08期](https://blog.csdn.net/qian123456wang/article/details/170195987) |
-| [第12期：Simulink 消抖与滤波对比实战](https://blog.csdn.net/qian123456wang/article/details/171094467?spm=1001.2014.3001.5501) | 开关量连续稳定样本消抖、一阶离散低通IIR、官方 Stateflow/FIR 模型学习入口、10项 MATLAB 断言与5张软件界面风格示意图 | Python独立参考检查通过；MATLAB/Simulink/Stateflow未实测 |
+| [第12期：Simulink 消抖与滤波对比实战](12-debounce-and-filtering/) | 开关量连续稳定样本消抖、一阶离散低通IIR、官方 Stateflow/FIR 模型学习入口、10项 MATLAB 断言与5张软件界面风格示意图 | Python独立参考检查通过；MATLAB/Simulink/Stateflow未实测 |
+| [第13期：RS触发器与多 ECU 信号整理](13-rs-flipflop-and-ecu-signal-organization/) | RS置位/保持/复位参考逻辑、数据类型转换示例、虚构 ECU 信号清单、分组检查、15项 MATLAB 断言与Simulink动手步骤 | Python独立参考检查通过；MATLAB/Simulink未实测 |
 
 第08期先阅读本期README，再运行独立表格映射示例；下方5路/50路步骤对应第04期。
 
 ## 怎样使用
 
-[第12期实验与配图](12-debounce-and-filtering/)包含开关消抖和连续数值滤波两个独立实验。自制示例只需要基础 MATLAB，官方 Basic Filter 的 FIR 示例需要 Simulink 和 DSP System Toolbox。
+[第12期实验与配图](12-debounce-and-filtering/)包含开关消抖和连续数值滤波两个独立实验。 [第13期实验](13-rs-flipflop-and-ecu-signal-organization/)包含RS状态保持、数据类型转换和ECU信号分组练习。自制示例只需要基础 MATLAB，官方 Basic Filter 的 FIR 示例需要 Simulink 和 DSP System Toolbox。
 
 1. 先读本期README，下载本期全部.m文件到独立练习文件夹。
 2. 先完成5路入门，再运行50路示例。
