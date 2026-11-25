@@ -1,6 +1,6 @@
 function result = rs_flipflop_demo()
 % Active-high Set/Hold/Reset teaching sequence.
-sampleTime = 0.1; stopTime = 8.0;
+sampleTime = 0.1; stopTime = 10.0;
 time = (0:sampleTime:stopTime).';
 setInput = double(time >= 1.0 & time < 2.0);
 resetInput = double(time >= 6.0 & time < 7.0);

@@ -15,8 +15,11 @@ catch e, rejected = strcmp(e.identifier,'Issue13:SimultaneousSetReset'); end
 assert(rejected);
 assert(isa(conversion.Data.OutputSingle,'single'));
 assert(isa(conversion.Data.OutputUint8,'uint8'));
+assert(isequal(conversion.Data.OutputUint8, uint8([0;0;12;13;255;255])));
 assert(height(ecu.Signals)==11);
 assert(height(ecu.Summary)==7);
-report.Status = 'PASS'; report.Passed = 10; report.Total = 10;
-fprintf('Issue 13 MATLAB assertions: 10/10 passed.\n');
+assert(isequal(ecu.Summary.ECU, ["ABS";"BMS";"MCU";"BCM";"DCDC";"OBC";"TBOX"]));
+assert(isequal(ecu.Summary.SignalCount, [3;2;2;1;1;1;1]));
+report.Status = 'PASS'; report.Passed = 13; report.Total = 13;
+fprintf('Issue 13 MATLAB assertions: 13/13 passed.\n');
 end

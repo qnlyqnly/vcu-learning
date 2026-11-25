@@ -10,6 +10,7 @@
 | [第05期：CAN Pack、CAN Unpack、From 和 Goto](05-can-pack-unpack-routing/) | 虚构DBC、三组报文、信号流向图、搭建练习与标签名称初筛 | MATLAB与CAN Pack/Unpack尚未实测；[CSDN第05期](https://blog.csdn.net/qian123456wang/article/details/169555029) |
 | [第08期：CAN 通道批量修改](08-can-channel-batch-edit/) | 三种方法、MATLAB映射脚本、虚构模块表与参数复读清单 | 静态核对；MATLAB执行与模型验证待完成；[CSDN第08期](https://blog.csdn.net/qian123456wang/article/details/170195987) |
 | [第12期：Simulink 消抖与滤波对比实战](https://blog.csdn.net/qian123456wang/article/details/171094467?spm=1001.2014.3001.5501) | 开关量连续稳定样本消抖、一阶离散低通IIR、官方 Stateflow/FIR 模型学习入口、10项 MATLAB 断言与5张软件界面风格示意图 | Python独立参考检查通过；MATLAB/Simulink/Stateflow未实测 |
+| [第13期：RS触发器与多ECU CAN信号转发](13-rs-flipflop-and-ecu-signal-organization/) | RS状态参考、类型转换、11路虚构信号分类、手动封装练习与八张原创教学示意图 | Python独立参考与CSV检查通过；MATLAB/Simulink未实测；[CSDN第13期](https://blog.csdn.net/qian123456wang/article/details/171372527) |
 
 第08期先阅读本期README，再运行独立表格映射示例；下方5路/50路步骤对应第04期。
 
