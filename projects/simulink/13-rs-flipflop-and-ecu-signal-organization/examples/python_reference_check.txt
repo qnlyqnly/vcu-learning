@@ -1,0 +1,3 @@
+RS set/hold/reset sequence: PASS
+ECU catalog: 11 unique signals across 7 ECU groups: PASS
+MATLAB/Simulink execution: NOT TESTED
