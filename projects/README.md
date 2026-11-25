@@ -4,7 +4,7 @@
 
 后续新项目会逐个增加，不提前创建空目录。
 
-## 按期数阅读：01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12
+## 按期数阅读：01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 12 → 13
 
 - [02 · CAN报文与DBC](02-can-dbc-basics/)
 - [03 · 信号边界与高低字节](can-dbc/signal-boundaries/)
@@ -17,6 +17,7 @@
 - [10 · VCU动力系统公式与MATLAB数值练习](vehicle-dynamics/10-vcu-powertrain-formulas/) · [CSDN文章](https://blog.csdn.net/qian123456wang/article/details/170698701)
 - [11 · VCU高压上电与预充：MATLAB离线仿真及故障测试](vehicle-control/11-vcu-hv-precharge/) · [CSDN文章](https://blog.csdn.net/qian123456wang/article/details/171017310) · Python独立参考14组通过；MATLAB/Simulink未实测。
 - [12 · 汽车电子：Simulink 消抖与滤波对比实战](simulink/12-debounce-and-filtering/) · [CSDN文章](https://blog.csdn.net/qian123456wang/article/details/171094467?spm=1001.2014.3001.5501) · Python参考检查通过；MATLAB/Simulink/Stateflow待实测。
+- [13 · Simulink：RS触发器与多 ECU 信号整理](simulink/13-rs-flipflop-and-ecu-signal-organization/) · [CSDN文章](https://blog.csdn.net/qian123456wang/article/details/171372527) · Python参考检查通过；MATLAB/Simulink待实测。
 
 
 ## 分类入口
